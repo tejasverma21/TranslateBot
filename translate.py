@@ -25,7 +25,7 @@ def help(update, context):
 def echo(update, context):
     """Echo the user message."""
     st = update.message.text
-    q=ts.alibaba(st, professional_field='general', to_language = 'es')
+    q=ts.google(st, professional_field='general', to_language = 'es')
     '''try:
         s = wikipedia.search(st)
         if len(s) == 0:
